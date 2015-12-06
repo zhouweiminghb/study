@@ -22,6 +22,7 @@ public class Server extends JFrame {
     setTitle("Server");
     setSize(500, 300);
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    setLocationRelativeTo(null);
     setVisible(true); // It is necessary to show the frame here!
 
     try {
